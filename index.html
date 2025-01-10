@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="../static/css/style.css" />
+    <title>Noticias de última hora</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="header__nav main-nav">
+        <ul class="main-nav__list main-list">
+          <li class="main-list__item list-item">
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+      <!-- Vista previa -->
+      <section class="main__home home" id="home">
+        <h1 class="home__title">La ONU pide reducir las emisiones “de forma drástica” tras un 2024 de calor récord</h1>
+        <p class="home__subtitle">António Guterres recalca que se ha completado una “década de calor mortal” con los 10 años de temperatura media más alta desde que hay registros</p>
+        <img
+            class="info-block__img"
+            src="../static/img/noticias.avif"
+            alt="principal_news"
+            width="1200"
+            height="700"
+          />
+      </section>
+      <!-- Acerca de mí -->
+      <section class="main__about about" id="about">
+        <h2 class="about__title">¿QUÉ PASÓ?</h2>
+        <div class="about__info info-block">
+          <p class="info-block__text">
+            Tras un año 2024 que muy probablemente será el más caluroso de la historia, la comunidad internacional tiene que recortar las emisiones de forma drástica en 2025 y actuar con mayor responsabilidad, según han indicado este lunes varios responsables de Naciones Unidas en un mensaje de cara al nuevo año. “El mundo tiene que abandonar este camino a la perdición, no tenemos tiempo que perder, y en 2025 los países deben poner al planeta en un lugar más seguro reduciendo de forma drástica sus emisiones”, ha explicado el secretario general de la ONU, António Guterres.
+
+
+            En su mensaje de fin de año, el portugués ha señalado que 2024 ha completado una “década de calor mortal” en la que se han constatado los 10 años de temperatura media más alta desde que se tienen registros. “Estamos presenciando el colapso climático en tiempo real. Este camino está abocado a la ruina y hemos de abandonarlo lo antes posible”, ha apuntado. Además, ha pedido a los países “apoyar la transición a un futuro renovable”. “Es indispensable que lo hagan, y no es imposible”, ha añadido.
+
+
+            Mientras, la secretaria general de la Organización Meteorológica Mundial (OMM), la argentina Celeste Saulo, ha explicado: “Si queremos un mundo más seguro, debemos actuar ahora, es nuestra responsabilidad común y global”. Tras un 2024 que además será el primero en el que la subida media de temperaturas esté por encima de los 1,5 grados que el Acuerdo de París recomendó no superar, Saulo ha añadido que “cada décima de grado de calentamiento importa, e incrementa los extremos climáticos, sus impactos y sus peligros”.
+
+
+            Además, “el calor intenso ha abrasado a decenas de países, con temperaturas por encima de los 50 grados en varias ocasiones y devastadores incendios”, ha asegurado la máxima responsable de la agencia meteorológica de Naciones Unidas.
+
+
+            La OMM publicará en enero la cifra sobre la temperatura media de 2024, donde se confirmará si se superaron los récords de 2023, hasta ahora el año más caluroso del que se tiene registro, y en marzo emitirá su informe completo sobre el clima de este año que ahora termina. En 2025, año en el que la OMM celebra su 75 aniversario, la organización prestará especial atención a la situación de la criosfera (polos y zonas heladas de alta montaña), ya que ha sido declarado Año Internacional de la Preservación de los Glaciares.
+
+          </p>
+          <img
+            class="info-block__img1"
+            src="../static/img/Flag_of_the_United_Nations.webp"
+            alt="onu"
+            width="500"
+            height="500"
+          />
+          <img
+            class="info-block__img2"
+            src="../static/img/cambio_climatico.webp"
+            alt="news"
+            width="600"
+            height="600"
+          />
+        </div>
+      </section>
+      <!-- Sección de competencias -->
+      <section class="main__skills skills" id="skills">
+        <h2 class="skills__title">MÁS NOTICIAS</h2>
+        <form action="/" method="POST">
+          <ul class="skills__list skills-list">
+            <li class="skills-list__skill skill">
+              <img
+                class="skill__img"
+                src="../static/img/noticia_extra1.webp"
+                alt="kid"
+                width="350"
+                height="350"
+              />
+              <span class="skill__info">NIÑO CONSIGUE 1 MILLÓN DE DOLARES! DESCUBRE CÓMO</span>
+            </li>
+            <li class="skills-list__skill skill">
+              <img
+                class="skill__img"
+                src="../static/img/noticia_extra2.webp"
+                alt="woman"
+                width="350"
+                height="350"
+              />
+              <span class="skill__info">SEÑORA HACE ESCANDALO AL DESCRUBIR QUE SU MARIDO LA ENGAÑABA :0</span>
+            </li>
+            <li class="skills-list__skill skill">
+              <img
+                class="skill__img"
+                src="../static/img/noticia_extra3.webp"
+                alt="war"
+                width="350"
+                height="350"
+              />
+              <span class="skill__info">LA GUERRA EN MEDIO ORIENTE NO TERMINA</span>
+            </li>
+            <li class="skills-list__skill skill">
+              <img
+                class="skill__img"
+                src="../static/img/noticia_extra4.webp"
+                alt="webpages"
+                width="350"
+                height="350"
+              />
+              <span class="skill__info">COMO HACER PÁGINAS WEB FÁCIL, PARA NOVATOS</span>
+            </li>
+          </ul>
+        </form>
+        {% if button_python%}
+          <div class="skills__project project" id="project">
+              <img class="project__img" src="../static/img/python-project.png" alt="project" width="500">
+              <a class="project__link" href="">Abierto en GitHub</a>
+          </div>
+        {% endif %}
+      </section>
+    <footer>
+
+    </footer>
+  </body>
+</html>

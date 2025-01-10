@@ -1,0 +1,5 @@
+-- LIBRERIAS PARA EL PROYECTO --
+
+Flask
+Jinja
+Discord
